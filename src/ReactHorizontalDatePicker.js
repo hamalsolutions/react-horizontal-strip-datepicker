@@ -86,7 +86,7 @@ export default function ReactHorizontalDatePicker({enableDays,enableScroll,selec
 
     const onDateClick = day => {
         setSelectedDate(day);
-        selectedDay(selectedDate);
+        selectedDay(day);
     };
 
     const nextScroll = () => {
